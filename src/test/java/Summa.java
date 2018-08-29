@@ -1,10 +1,10 @@
 /**
- * Created by User on 26.08.2018.
+ * Created by Basov Stepanon 26.08.2018.
  */
 
 import java.util.Scanner;
 
-
+//операция сложения, наследуем класс Chisla
 public class Summa extends Chisla{
 
     double sum1;

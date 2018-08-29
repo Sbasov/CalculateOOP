@@ -1,8 +1,12 @@
+/**
+ * Created by Stepan on 26.08.2018.
+ * @author Basov Stepan
+ * @version 1.6
+ */
+
+//Реализовываем работу калькулятора
 import java.util.Scanner;
 
-/**
- * Created by User on 26.08.2018.
- */
 public class Itog {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,16 +20,20 @@ public class Itog {
             int choose = scanner.nextInt();
             switch (choose) {
                 case 1:
+                    //Операция сложения из класса Summa
                     summa.Sum2();
                     break;
 
                 case 2:
+                    //Операция вычитания из класса Minus
                     minus.Sum2();
                     break;
                 case 3:
+                    //Операция умножения из класса Umnozenie
                     umnozenie.Sum2();
                 break;
                 case 4:
+                    //Операция деления из класса Delenie
                     delenie.Sum2();
                     break;
                 default:

@@ -1,6 +1,8 @@
 /**
- * Created by User on 26.08.2018.
+ * Created by Basov Stepan on 26.08.2018.
  */
+
+//операция деления, наследуем класс Chisla
 public class Delenie extends Chisla{
 
     double sum1;
