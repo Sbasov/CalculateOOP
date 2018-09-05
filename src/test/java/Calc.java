@@ -5,7 +5,12 @@
 
 //Задаем интерфейс
 public interface Calc {
-double Number1 ();
-double Number2 ();
+    double inputNumber1();
 
+    double inputNumber2();
+
+    String getOperator();
+
+    double calculateResult();
 }
+

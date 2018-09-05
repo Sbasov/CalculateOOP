@@ -3,14 +3,15 @@
  */
 
 //операция Вычитания, наследуем класс Chisla
-public class Minus extends Chisla{
+public class Minus extends Operation{
 
-    double sum1;
-    public Minus(){}
+    @Override
+    public String getOperator() {
+        return "-";
+    }
 
-
-    public double Sum2() {
-        System.out.println("Итог операции = "+(sum1=(Number1()-Number2())));
-        return  sum1;
+    @Override
+    public double calculateResult() {
+        return getA()-getB();
     }
 }

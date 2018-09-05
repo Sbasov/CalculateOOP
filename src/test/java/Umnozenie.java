@@ -3,14 +3,15 @@
  */
 
 //операция умножения, наследуем класс Chisla
-public class Umnozenie extends Chisla{
+public class Umnozenie extends Operation{
 
-    double sum1;
-    public Umnozenie(){}
+    @Override
+    public String getOperator() {
+        return "*";
+    }
 
-
-    public double Sum2() {
-        System.out.println("итог операции = "+(sum1=(Number1()*Number2())));
-        return  sum1;
+    @Override
+    public double calculateResult() {
+        return getA()*getB();
     }
 }
